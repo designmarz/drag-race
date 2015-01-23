@@ -1,88 +1,191 @@
-/******* GENERAL ******/
-.center {
-  margin: 0 auto;
+body {
+background-image: url('../images/Excitebike-Track.png');
+background-size: cover;
 }
 
-.abs {
-  position: absolute;
+div#raceTrack {
+width: 800px;
+height: 150px;
+background: gray;
+position: absolute;
+left: 250px;
+top: 401px;
 }
 
-/******* XMAS TREE ******/
-#christmas-tree {
-  margin: 20px auto;
-  width: 70px;
-  background: black;
-  color: white;
-  text-align: center;
-  font-size: 0.9em;
-  border: 4px solid #ccc;
+div#preLine {
+width: 10px;
+height: 150px;
+background: white;
+position: absolute;
+left: 50px;
 }
 
-.lights {
-  border-bottom: 1px solid #ccc;
+div#faultLine {
+width: 10px;
+height: 150px;
+background: white;
+position: absolute;
+left: 140px;
 }
 
-.lights div {
-  display: inline-block;
-  background: white;
+div#finishLine {
+width: 10px;
+height: 150px;
+background: white;
+position: absolute;
+left: 700px;
 }
 
-#pre-stage div, #stage div {
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
+
+h2.pre {
+transform: rotate(-90deg);
+position: absolute;
+top: 40px;
+left: -50px;
+}
+h2.stage {
+transform: rotate(-90deg);
+position: absolute;
+top: 40px;
+left: -95px;
 }
 
-#pre-stage.on div {
-  background: yellow;
+h2.finish {
+transform: rotate(-90deg);
+position: absolute;
+top: 40px;
+left: 10px;
 }
 
-#start-lights div {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
+.car {
+width: 50px;
+height: 30px;
+background: green;
+position: absolute;
+left: 0px;
 }
 
-/******* RACETRACK ******/
-#racetrack {
-  background: green;
-  width: 90%;
-  height: 88px;
-  border: 2px solid black;
+div#rCar1 {
+top: 15px;
 }
 
-#strip {
-  width: inherit;
-  height: 88px;
+div#rCar2 {
+top: 105px;
 }
 
-.place {
-  height: 88px;
-  width: 10px;
-  min-height: 88px;
-  min-width: 10px;
+/*X-mas Tree Lights*/
+
+div#tree {
+width: 120px;
+height: 210px;
+margin-left: auto;
+margin-right: auto;
+background: rgb(238, 238, 238);
+border: 1px solid #CDCDCD;
+border-radius: 30px;
+margin-top: 40px;
 }
 
-#pre-staged {
-  left: 39px;
-  background: yellow;
+div#mtree {
+width: 20px;
+height: 230px;
+background: black;
+margin-left: 50px;
+margin-right: 50px;
+position: absolute;
+top: 61px;
 }
 
-#finish {
-  right: 49px;
-  background: white;
+.bartree {
+width: 34px;
+height: 4px;
+background: #000;
+position: absolute;
+margin-left: 43px;
 }
 
-#staged {
-  left: 93px;
-  background: yellow;
+.light {
+width: 30px;
+height: 30px;
+background: #fff;
+border: 2px solid #000;
+border-radius: 20px;
+margin-top: 6px;
+margin-left: 10px;
+margin-right: 10px;
 }
 
-#dragster {
-  background: url(../images/mario.png) no-repeat;
-  background-size: 39px 44px;
-  width: 39px;
-  height: 44px;
-  top: 20px;
-  z-index: 100;
+div#Lside {
+float: left;
 }
+div#Rside {
+float: right;
+}
+
+
+div#bartree1 {
+margin-top: 20px;
+}
+
+div#bartree2 {
+margin-top: 43px;
+}
+
+div#bartree3 {
+margin-top: 64px;
+}
+
+div#bartree4 {
+margin-top: 86px;
+}
+
+div#bartree5 {
+margin-top: 108px;
+}
+/*X-mas Tree Lights*/
+
+/*Reset Track Button */
+input.Reset {
+margin-left: 40%;
+margin-right: 40%;
+width: 20%;
+height: 40px;
+position: absolute;
+top: 560px;
+font-size: 30pt;
+}
+
+
+/*Start Button*/
+
+div#keyStart {
+width: 70px;
+height: 70px;
+background: #000;
+border-radius: 40px;
+text-align: center;
+position: absolute;
+top: 30px;
+left: 90%;
+}
+div#keySwitch {
+width: 15px;
+height: 50px;
+background: #A8A8A8;
+text-align: center;
+margin: 10px auto 0 auto;
+transform: rotate(30deg);
+}
+
+h4.ks {
+text-align: center;
+position: absolute;
+top: -10px;
+left: 1156px;
+}
+
+
+
+
+
+/*Start Button*/

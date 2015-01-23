@@ -2,48 +2,62 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Drag Race!</title>
-  <link rel="stylesheet" href="css/normalize.css" media="all">
-  <link rel="stylesheet" href="css/main.css" media="all">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Race Track</title>
 </head>
 <body>
-  <div id="christmas-tree" class="center">
-    pre-stage
-    <div id="pre-stage" class="lights">
-      <div></div><div></div>
-      <div></div><div></div>
-    </div>
-    stage
-    <div id="stage" class="lights">
-      <div></div><div></div>
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    </div>
-  </div>
-  <div id="racetrack" class="center">
-    <div class="abs" id="strip">
-      <div id="dragster" class="abs"></div>
-      <div id="pre-staged" class="place abs"></div>
-      <div id="staged" class="place abs"></div>
-      <div id="start" class="abs"></div>
-      <div id="finish" class="place abs"></div>
-    </div>
-  </div>
-  <script src="js/bundle.js"></script>
+<div id="tree" class="tree">
+	<div id="mtree" class="mtree"></div>
+
+<div id="Lside" class="treeBox">
+	<div id="left1" class="light"></div>
+	<div id="left2" class="light"></div>
+	<div id="left3" class="light"></div>
+	<div id="left4" class="light"></div>
+	<div id="left5" class="light"></div>
+	</div>
+	
+<div id="Rside" class="treeBox">
+	<div id="right1" class="light"></div>
+	<div id="right2" class="light"></div>
+	<div id="right3" class="light"></div>
+	<div id="right4" class="light"></div>
+	<div id="right5" class="light"></div>
+	</div>
+
+<div id="barHolerBox" class="barHolder">
+	<div id="bartree1" class="bartree"></div><br>
+	<div id="bartree2" class="bartree"></div><br>
+	<div id="bartree3" class="bartree"></div><br>
+	<div id="bartree4" class="bartree"></div><br>
+	<div id="bartree5" class="bartree"></div><br>
+</div>
+	
+</div>
+<div id="raceTrack" class="track">
+	<div id="preLine" class="pre"><h2 class="pre">PRE</h2></div>
+	<div id="faultLine" class="fault"><h2 class="stage">STAGING</h2></div>
+	<div id="finishLine" class="finish"><h2 class="finish">FINISH</h2></div>
+	
+	<div id="rCar1" class="car"></div>
+	
+	<div id="rCar2" class="car"></div>
+</div>
+
+<div class="keyPlate"></div>
+	<h4 class="ks">ON/OFF</h4>
+
+
+	<div id= "keyStart">
+		
+		<div id="keySwitch" onclick="carstart()"></div>
+	</div>
+
+
+	
+<input type ="button" id="resetButton" class="Reset" onClick="CarMove(), carstart()" value="Reset Track"/>
+
+	<script src="js/bundle.js" type="text/javascript"></script>
 </body>
 </html>
+	
