@@ -167,6 +167,7 @@ text-align: center;
 position: absolute;
 top: 30px;
 left: 90%;
+border: 4px dashed #eee;
 }
 div#keySwitch {
 width: 15px;
@@ -181,7 +182,7 @@ h4.ks {
 text-align: center;
 position: absolute;
 top: -10px;
-left: 1156px;
+left: 1165px;
 }
 
 
