@@ -13,7 +13,7 @@ window.addEventListener('keyup', function(event) {
         var car1Pos = getComputedStyle(this.$el).getPropertyValue("left");
         
         if ( car1Pos === 90 + "px")
-            {   treeAni();
+            {   setTimeout(treeAni(), 30);
                 console.log("get Ready!");
                 setTimeout(aiMove, 3000);
                 document.getElementById("left5").style.backgroundColor = "blue";
@@ -61,7 +61,7 @@ window.addEventListener('keyup', function(event) {
 // Car 2 AI //
 aiCar = function(){
     this.$el = document.getElementById('rCar2');
-    this.$el.style.left = parseInt(this.$el.style.left, 10) + 10 + "px";
+    this.$el.style.left = parseInt(this.$el.style.left, 10) + 1 + "px";
     var car2Pos = getComputedStyle(this.$el).getPropertyValue("left");
        if ( car2Pos === 660 + "px")
             { winner("Player 2");
@@ -69,7 +69,7 @@ aiCar = function(){
     };
 aiMove = function(){
     if (flaseTimer === 1) {
-  aiInter = setInterval(aiCar, 130);
+  aiInter = setInterval(aiCar, 14);
 }
 };
 function aiStop(){
